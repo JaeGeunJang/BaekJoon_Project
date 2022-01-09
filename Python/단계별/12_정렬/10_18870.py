@@ -50,6 +50,7 @@ idxn = merge_sort(list(set(nlist)))
 #내장 함수 사용 시 3배이상 빨라짐 - Why?
 
 dic = {idxn[i] : i for i in range (len(idxn))}
+print(dic)
 
 for i in nlist :
-    print(dic[i], end = " ")
+    print(dic[i])
